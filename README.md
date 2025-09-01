@@ -49,7 +49,7 @@ Then select the "Python 3" kernel and run the notebook.
 
 ### Machine Learning
 
-- Predicting and Optimizing Pricing Strategies for Bristol, UK Airbnb Rentals
+- [Predicting and Optimizing Pricing Strategies for Bristol, UK Airbnb Rentals](https://github.com/MengenL-ds/Predicting-and-Optimizing-Pricing-Strategies-for-Bristol-UK-AirBnB-Rental-Properties)
 
 Developed a machine learning workflow to predict and optimize rental prices for Bristol Airbnb listings. Built and compared multiple models (Linear Regression, Random Forest, Gradient Boosting, LightGBM) to recommend optimal pricing strategies for new listings, supporting hosts in maximizing revenue. Applied feature importance analysis with SHAP and exploratory data visualization to extract actionable market insights. Developed a Flask-based web app that allows users to input listing details and receive real-time price recommendations. The app wraps a fully reproducible pipeline with preprocessing, a trained model (final_model.pkl), and a saved preprocessing transformer (preprocessing_pipeline.pkl) to ensure consistent predictions. An example payload (payload.json) helps users test the API easily.
 
@@ -63,7 +63,7 @@ _Libraries/Tools: R, Random Forest, Docker, Makefile, RStudio, ggplot2, ggcorrpl
 
 ### Time-Series Forecasting
 
-- Forecasting Restaurant Visitor Demand with Machine Learning and Statistical Models
+- [Forecasting Restaurant Visitor Demand with Machine Learning and Statistical Models](https://github.com/MengenL-ds/Forecasting-Restaurant-Visitor-Demand-with-Machine-Learning)
 
 Developed time-series forecasting models to predict daily restaurant visitor demand using historical reservation and weather data. Implemented ARIMA/SARIMAX models alongside machine learning methods (Random Forest, Gradient Boosting) and compared their performance. Applied feature engineering on temporal and external variables to improve accuracy and validated results with time-series cross-validation to avoid data leakage.
 
