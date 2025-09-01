@@ -101,6 +101,4 @@ _Currently in use, deployed locally on restaurant's system (Android & PC)_
 
 ---
 
-Thank you for taking your time to visit my portfolio, if you would like to have a chat about my work, or work opportunities, please don't hesitate to reach out to me at my [Email](mailto:mengen.liu.ds@gmail.com)
-
 If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at mengen.liu.ds@gmail.com.
