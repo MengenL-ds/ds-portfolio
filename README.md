@@ -49,29 +49,29 @@ Then select the "Python 3" kernel and run the notebook.
 
 ### Machine Learning
 
-- Predicting and Optimizing Pricing Strategies for New York AirBnB Rental Properties
-Developed a workflow to predict and optimize pricing strategies for New York AirBnb rental properties using differnt machine learning models. It provides optimal selling price for new listings in the best interest of rental owners.
+- Predicting and Optimizing Pricing Strategies for Bristol, UK Airbnb Rentals
+Developed a machine learning workflow to predict and optimize rental prices for Bristol Airbnb listings. Built and compared multiple models (Linear Regression, Random Forest, Gradient Boosting, LightGBM) to recommend optimal pricing strategies for new listings, supporting hosts in maximizing revenue. Applied feature importance analysis with SHAP and exploratory data visualization to extract actionable market insights. Developed a Flask-based web app that allows users to input listing details and receive real-time price recommendations. The app wraps a fully reproducible pipeline with preprocessing, a trained model (final_model.pkl), and a saved preprocessing transformer (preprocessing_pipeline.pkl) to ensure consistent predictions. An example payload (payload.json) helps users test the API easily.
 
-- Unsupervised Learning
+Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn, SHAP, lightgbm, Flask.
 
-Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn, SHAP, lightgbm.
+- Maternal Health Risk Prediction
+Built a full reproducible pipeline in R to classify maternal health risk levels (low, medium, high) using physiological data such as blood pressure, blood sugar, and body temperature. Implemented Random Forest and multinomial logistic regression models, with Random Forest achieving 81% accuracy (vs. 58% logistic regression and 40% baseline). Deployed a Dockerized environment with Makefile automation to ensure reproducibility and transparency. Key predictors identified included body temperature (2.29× odds of high risk per unit increase) and blood sugar (2.13× odds)
+
+_Libraries/Tools: R, Random Forest, Docker, Makefile, RStudio, ggplot2, ggcorrplot, vip,..._
 
 ### Time-Series Forecasting
 
-- Forecasting Avocado Prices and Sales Trends in US Markets
-Analyzed historical avocado sales data from multiple US markets to identify key trends and patterns. Applied time-series forecasting techniques to predict future prices and sales volumes, providing actionable insights for avocado producers, retailers, customers.
+- Forecasting Restaurant Visitor Demand with Machine Learning and Statistical Models
+Developed time-series forecasting models to predict daily restaurant visitor demand using historical reservation and weather data. Implemented ARIMA/SARIMAX models alongside machine learning methods (Random Forest, Gradient Boosting) and compared their performance. Applied feature engineering on temporal and external variables to improve accuracy and validated results with time-series cross-validation to avoid data leakage.
 
-_Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib_
-
-### Recommender Systems
-
-- Competition by H&M to develop product recommendation based on data from previous transactions, as well as from customer and product meta data.
-
-_Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn_
+_Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, statsmodels (ARIMA, SARIMAX)_
 
 ### Mini Projects
 
-- 
+- Recipe Name Clustering
+This project explores unsupervised learning by clustering recipe names from Kaggle’s Food.com dataset. The dataset contains over 180K recipes and 700K reviews. We focus only on the recipes (RAW_recipes.csv) and cluster them based on their textual descriptions
+
+_ Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, Umap-learn, word_cloud, yellowbrick_
 
 ## Software Engineering Projects
 
