@@ -95,6 +95,10 @@ A system that allows improved coordination of priority food and drink orders bet
 
 _Currently in use, deployed locally on restaurant's system (Android & PC)_
 
+## Discrete Optimization Projects
+
+- **Comming soon**
+
 ---
 
 Thank you for taking your time to visit my portfolio, if you would like to have a chat about my work, or work opportunities, please don't hesitate to reach out to me at my [Email](mailto:mengen.liu.ds@gmail.com)
