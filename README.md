@@ -1,10 +1,8 @@
 # Data Science Portfolio
 
-A collection of data science projects developed through academic coursework, self-directed learning, and personal exploration. Content is presented in various formats, including Jupyter notebooks (.ipynb), R scripts (.R), and R Markdown files (.Rmd).
+This portfolio is a mix of projects I’ve worked on in data science, software engineering, and discrete optimization. Some started as coursework, others as personal challenges, and a few were built to solve real problems for local businesses. They cover everything from machine learning and forecasting to mathematical modeling and full system design, and are shared here through Jupyter notebooks, R scripts, and even deployed applications.
 
 ## How to Run Jupyter Notebooks Locally
-
-Portfolio of data science and software engineering projects showcasing skills in ML, optimization, reproducible pipelines, and real-world deployments
 
 **Before you begin:**  
 Please familiarize yourself with [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) and how to install it on your system.  
