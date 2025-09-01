@@ -79,7 +79,7 @@ _Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, Umap-learn, word_cloud
 
 ## Software Engineering Projects
 
-- Aircraft Maintenance Tracking Log
+- [Aircraft Maintenance Tracking Log](https://github.com/MengenL-ds/Aircraft-Tracker)
 
 Developed a program for the RAF or airforces around the world to track several aircraft operations from maintenance to crew and mission assignments.
 
