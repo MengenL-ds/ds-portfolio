@@ -82,8 +82,8 @@ _Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, Umap-learn, word_cloud
 - [Aircraft Maintenance Tracking Log](https://github.com/MengenL-ds/Aircraft-Tracker)
 
 Developed a program for the RAF or airforces around the world to track several aircraft operations from maintenance to crew and mission assignments.
-
-- Restaurant Point of Sale (POS)
+ 
+- [Restaurant Point of Sale (POS) System](https://github.com/MengenL-ds/Restaurant-POS)
 
 An intuitive POS system for a local restaurant business to optimize their day-to-day operations from ordering food to table assignment. 
 
