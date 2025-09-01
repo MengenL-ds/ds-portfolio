@@ -4,6 +4,8 @@ A collection of data science projects developed through academic coursework, sel
 
 ## How to Run Jupyter Notebooks Locally
 
+Portfolio of data science and software engineering projects showcasing skills in ML, optimization, reproducible pipelines, and real-world deployments
+
 **Before you begin:**  
 Please familiarize yourself with [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) and how to install it on your system.  
 It's also helpful to understand, [here](https://medium.com/@pinareceaktan/what-is-this-virtual-environments-in-python-and-why-anyone-ever-needs-them-7e3e682f9d2) is a fun article to help you get familiarized.
