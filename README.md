@@ -47,13 +47,19 @@ Then select the "Python 3" kernel and run the notebook.
 
 ## Contents
 
-## EDA
+### EDA
 
 - [Spotify Track Popularity EDA Analysis](https://github.com/MengenL-ds/spotify-track-popularity-EDA-analysis)
 
 A comprehensive data science project investigating the factors that drive song popularity on Spotify. Using data extracted from Spotify's API, this analysis examines 1686 tracks to determine whether popularity is driven more by intrinsic musical characteristics (energy, danceability, tempo, valence) or contextual factors (genre, artist recognition)
 
 ### Machine Learning
+
+- [Recidivism Prediction Using Machine Learning](https://github.com/MengenL-ds/criminal-recidivism-prediction)
+
+Developed and compared 12 classification models to predict criminal recidivism using the ProPublica COMPAS dataset. Addressed severe class imbalance (84: 16 ratio) through SMOTE oversampling and class weighting. Performed comprehensive EDA, feature engineering, and hyperparameter tuning with GridSearchCV.
+
+ Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn, xgboost, lightgbm, catboost
 
 - [Predicting-compressive-strength-of-concrete-mixtures](https://github.com/MengenL-ds/Predicting-compressive-strength-of-concrete-mixtures)
 
