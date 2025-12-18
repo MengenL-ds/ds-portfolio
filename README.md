@@ -47,6 +47,12 @@ Then select the "Python 3" kernel and run the notebook.
 
 ## Contents
 
+## EDA
+
+- [Spotify Track Popularity EDA Analysis](https://github.com/MengenL-ds/spotify-track-popularity-EDA-analysis)
+
+A comprehensive data science project investigating the factors that drive song popularity on Spotify. Using data extracted from Spotify's API, this analysis examines 1686 tracks to determine whether popularity is driven more by intrinsic musical characteristics (energy, danceability, tempo, valence) or contextual factors (genre, artist recognition)
+
 ### Machine Learning
 
 - [Predicting and Optimizing Pricing Strategies for Bristol, UK Airbnb Rentals](https://github.com/MengenL-ds/Predicting-and-Optimizing-Pricing-Strategies-for-Bristol-UK-AirBnB-Rental-Properties)
@@ -60,6 +66,9 @@ Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn, SHAP, lightgbm
 Built a full reproducible pipeline in R to classify maternal health risk levels (low, medium, high) using physiological data such as blood pressure, blood sugar, and body temperature. Implemented Random Forest and multinomial logistic regression models, with Random Forest achieving 81% accuracy (vs. 58% logistic regression and 40% baseline). Deployed a Dockerized environment with Makefile automation to ensure reproducibility and transparency. Key predictors identified included body temperature (2.29× odds of high risk per unit increase) and blood sugar (2.13× odds)
 
 _Libraries/Tools: R, Random Forest, Docker, Makefile, RStudio, ggplot2, ggcorrplot, vip,..._
+
+
+
 
 ### Time-Series Forecasting
 
