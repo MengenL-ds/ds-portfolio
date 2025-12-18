@@ -55,6 +55,12 @@ A comprehensive data science project investigating the factors that drive song p
 
 ### Machine Learning
 
+- [Predicting-compressive-strength-of-concrete-mixtures](https://github.com/MengenL-ds/Predicting-compressive-strength-of-concrete-mixtures)
+
+ This project develops predictive models to estimate the compressive strength of high-performance concrete based on ingredient composition and curing age. Using a dataset of 1,030 concrete samples from the UCI Machine Learning Repository, I performed comprehensive exploratory data analysis, applied domain-specific feature transformations (Yeo-Johnson, log transforms) to address skewness, and evaluated multiple regression approaches including Ridge, Lasso, and ElasticNet with 10-fold cross-validation. The project demonstrates end-to-end machine learning workflow including statistical analysis, preprocessing pipeline construction, hyperparameter optimization via grid search, and recursive feature elimination to identify the most influential components affecting concrete strength.
+
+Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn.
+
 - [Predicting and Optimizing Pricing Strategies for Bristol, UK Airbnb Rentals](https://github.com/MengenL-ds/Predicting-and-Optimizing-Pricing-Strategies-for-Bristol-UK-AirBnB-Rental-Properties)
 
 Developed a machine learning workflow to predict and optimize rental prices for Bristol Airbnb listings. Built and compared multiple models (Linear Regression, Random Forest, Gradient Boosting, LightGBM) to recommend optimal pricing strategies for new listings, supporting hosts in maximizing revenue. Applied feature importance analysis with SHAP and exploratory data visualization to extract actionable market insights. Developed a Flask-based web app that allows users to input listing details and receive real-time price recommendations. The app wraps a fully reproducible pipeline with preprocessing, a trained model (final_model.pkl), and a saved preprocessing transformer (preprocessing_pipeline.pkl) to ensure consistent predictions. An example payload (payload.json) helps users test the API easily.
