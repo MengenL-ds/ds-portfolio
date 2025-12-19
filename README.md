@@ -53,34 +53,41 @@ Then select the "Python 3" kernel and run the notebook.
 
 A comprehensive data science project investigating the factors that drive song popularity on Spotify. Using data extracted from Spotify's API, this analysis examines 1686 tracks to determine whether popularity is driven more by intrinsic musical characteristics (energy, danceability, tempo, valence) or contextual factors (genre, artist recognition)
 
+ _Libraries used: Pandas, Numpy, Matplotlib, Seaborn_
+
 ### Machine Learning
 
 - [Recidivism Prediction Using Machine Learning](https://github.com/MengenL-ds/criminal-recidivism-prediction)
 
 Developed and compared 12 classification models to predict criminal recidivism using the ProPublica COMPAS dataset. Addressed severe class imbalance (84: 16 ratio) through SMOTE oversampling and class weighting. Performed comprehensive EDA, feature engineering, and hyperparameter tuning with GridSearchCV.
 
- Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn, xgboost, lightgbm, catboost
+ _Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn, xgboost, lightgbm, catboost_
 
 - [Predicting-compressive-strength-of-concrete-mixtures](https://github.com/MengenL-ds/Predicting-compressive-strength-of-concrete-mixtures)
 
  This project develops predictive models to estimate the compressive strength of high-performance concrete based on ingredient composition and curing age. Using a dataset of 1,030 concrete samples from the UCI Machine Learning Repository, I performed comprehensive exploratory data analysis, applied domain-specific feature transformations (Yeo-Johnson, log transforms) to address skewness, and evaluated multiple regression approaches including Ridge, Lasso, and ElasticNet with 10-fold cross-validation. The project demonstrates end-to-end machine learning workflow including statistical analysis, preprocessing pipeline construction, hyperparameter optimization via grid search, and recursive feature elimination to identify the most influential components affecting concrete strength.
 
-Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn.
+_Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn_
 
 - [Predicting and Optimizing Pricing Strategies for Bristol, UK Airbnb Rentals](https://github.com/MengenL-ds/Predicting-and-Optimizing-Pricing-Strategies-for-Bristol-UK-AirBnB-Rental-Properties)
 
 Developed a machine learning workflow to predict and optimize rental prices for Bristol Airbnb listings. Built and compared multiple models (Linear Regression, Random Forest, Gradient Boosting, LightGBM) to recommend optimal pricing strategies for new listings, supporting hosts in maximizing revenue. Applied feature importance analysis with SHAP and exploratory data visualization to extract actionable market insights. Developed a Flask-based web app that allows users to input listing details and receive real-time price recommendations. The app wraps a fully reproducible pipeline with preprocessing, a trained model (final_model.pkl), and a saved preprocessing transformer (preprocessing_pipeline.pkl) to ensure consistent predictions. An example payload (payload.json) helps users test the API easily.
 
-Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn, SHAP, lightgbm, Flask.
+_Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, Seaborn, SHAP, lightgbm, Flask_
 
-- Maternal Health Risk Prediction
+- [Maternal Health Risk Prediction]
 
 Built a full reproducible pipeline in R to classify maternal health risk levels (low, medium, high) using physiological data such as blood pressure, blood sugar, and body temperature. Implemented Random Forest and multinomial logistic regression models, with Random Forest achieving 81% accuracy (vs. 58% logistic regression and 40% baseline). Deployed a Dockerized environment with Makefile automation to ensure reproducibility and transparency. Key predictors identified included body temperature (2.29× odds of high risk per unit increase) and blood sugar (2.13× odds)
 
 _Libraries/Tools: R, Random Forest, Docker, Makefile, RStudio, ggplot2, ggcorrplot, vip,..._
 
+- [Restaurant Review Sentiment Analysis](https://github.com/MengenL-ds/restaurant-review-sentiment-analysis)
 
+A multi-model sentiment analysis system predicting restaurant review ratings (1-5 stars) using four approaches: VADER, CountVectorizer, TF-IDF, and fine-tuned DistilBERT. The transformer model achieved 66.5% accuracy, outperforming traditional BOW methods by 35 percentage points.
 
+Analyzed 10,000 restaurant reviews, implemented dual preprocessing pipelines optimized for each model family, and built a production-ready FastAPI web application with batch prediction capabilities. The project demonstrates that aggressive preprocessing benefits traditional models but degrades transformer performance, which relies on contextual signals like punctuation and capitalization.
+
+_Libraries/Tools: PyTorch, Transformers, scikit-learn, NLTK, VADER, FastAPI, Uvicorn, Pandas, NumPy, Docker_
 
 ### Time-Series Forecasting
 
@@ -89,14 +96,6 @@ _Libraries/Tools: R, Random Forest, Docker, Makefile, RStudio, ggplot2, ggcorrpl
 Developed time-series forecasting models to predict daily restaurant visitor demand using historical reservation and weather data. Implemented ARIMA/SARIMAX models alongside machine learning methods (Random Forest, Gradient Boosting) and compared their performance. Applied feature engineering on temporal and external variables to improve accuracy and validated results with time-series cross-validation to avoid data leakage.
 
 _Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, statsmodels (ARIMA, SARIMAX)_
-
-### Mini Projects
-
-- Recipe Name Clustering
-
-This project explores unsupervised learning by clustering recipe names from Kaggle’s Food.com dataset. The dataset contains over 180K recipes and 700K reviews. We focus only on the recipes (RAW_recipes.csv) and cluster them based on their textual descriptions
-
-_Libraries used: Scikit-learn, Pandas, Numpy, Matplotlib, Umap-learn, word_cloud, yellowbrick_
 
 ## Software Engineering Projects
 
