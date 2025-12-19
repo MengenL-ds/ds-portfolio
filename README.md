@@ -8,43 +8,6 @@ This portfolio is a mix of projects I’ve worked on in data science, software e
 Please familiarize yourself with [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) and how to install it on your system.  
 It's also helpful to understand, [here](https://medium.com/@pinareceaktan/what-is-this-virtual-environments-in-python-and-why-anyone-ever-needs-them-7e3e682f9d2) is a fun article to help you get familiarized.
 
-### 1. Create the Conda Environment and Install Dependencies
-
-Use the provided [environment.yml](./environment.yml) to create the environment. Replace `<env name here>` with your desired environment name:
-
-```bash
-conda env create -f environment.yml --name <env name here>
-```
-
-*Note: If the link to the environment file is not functional, please find it in the root of the repository, download it, and install it manually.*
-
-### 2. Activate the Conda Environment
-
-```bash
-conda activate <env name here>
-```
-
-### 3. Clone This Repository
-
-Clone the repository to your desired location using:
-
-```bash
-git clone <repository-url>
-```
-
-### 4. Run the Notebooks
-
-Navigate to the cloned directory in your terminal.
-
-- You can run notebooks using **VS Code**, **Google Colab**, or
-- Start **Jupyter Lab** locally by typing:
-
-```bash
-jupyter lab
-```
-
-Then select the "Python 3" kernel and run the notebook.
-
 ## Contents
 
 ### EDA
